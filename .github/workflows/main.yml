@@ -1,0 +1,13 @@
+# File: .github/workflows/test-email-step.yml
+name: Test Email Step
+
+on:
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 23f2000867@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
